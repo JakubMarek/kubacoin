@@ -1,0 +1,9 @@
+Building Kubacoin
+
+See doc/readme-qt.rst for instructions on building Kubacoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Kubacoin.
+
+See doc/build-*.txt for instructions on building kubacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Kubacoin.

@@ -1,0 +1,34 @@
+src/*.exe
+src/kubacoin
+src/kubacoind
+src/test_kubacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.kubacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+kubacoin-qt
+Kubacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+kubacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
